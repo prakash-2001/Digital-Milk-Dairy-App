@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user.ui.trace_ur_details.trace_ur_details"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/trace_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Data"
+        android:textColor="#C00B0B0B"
+        android:textColorHint="#0B0B0B"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <EditText
+        android:id="@+id/to_date"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_edit"
+        android:backgroundTint="#D3D7D7"
+        android:backgroundTintMode="multiply"
+        android:drawableStart="@drawable/baseline_date"
+        android:hint="TO-Date"
+        android:paddingLeft="9dp"
+        android:paddingBottom="1dp"
+        android:textColor="#F5F3F4"
+        android:textColorHint="#FBFCFC"
+        android:textColorLink="#B0B3B2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trace_heading" />
+
+    <EditText
+        android:id="@+id/from_date"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/custom_edit"
+        android:backgroundTint="#D3D7D7"
+        android:backgroundTintMode="multiply"
+        android:drawableStart="@drawable/baseline_date"
+        android:hint="From Date"
+        android:paddingLeft="9dp"
+        android:paddingBottom="1dp"
+        android:textColor="#F5F3F4"
+        android:textColorHint="#FBFCFC"
+        android:textColorLink="#B0B3B2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/to_date"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trace_heading" />
+
+    <EditText
+        android:id="@+id/trace_user_id"
+        android:layout_width="152dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="125dp"
+        android:background="@drawable/custom_edit"
+        android:backgroundTint="#D3D7D7"
+        android:backgroundTintMode="multiply"
+        android:drawableStart="@drawable/baseline_account"
+        android:hint="User ID"
+        android:paddingLeft="9dp"
+        android:paddingBottom="1dp"
+        android:textColor="#F5F3F4"
+        android:textColorHint="#FBFCFC"
+        android:textColorLink="#B0B3B2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trace_heading" />
+
+    <TextView
+        android:id="@+id/show_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATA"
+        android:textColor="#C00B0B0B"
+        android:textColorHint="#0B0B0B"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="150dp"
+        android:text="Show Data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trace_heading" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/admin_home" />
+        <item
+            android:id="@+id/nav_entry"
+            android:icon="@drawable/baseline_add_task_24"
+            android:title="@string/daily_entry" />
+        <item
+            android:id="@+id/nav_edit_entry"
+            android:icon="@drawable/baseline_add_24"
+            android:title="@string/edit_entry" />
+        <item
+            android:id="@+id/nav_admin_trace"
+            android:icon="@drawable/baseline_library_books_24"
+            android:title="@string/trace_users" />
+        <item
+            android:id="@+id/nav_admin_signup"
+            android:icon="@drawable/baseline_person_add_alt_24"
+            android:title="@string/add_admin" />
+        <item
+            android:id="@+id/nav_user_signup"
+            android:icon="@drawable/baseline_person_add_alt_1_24"
+            android:title="@string/add_user" />
+        <item
+            android:id="@+id/nav_admin_logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="@string/logout" />
+    </group>
+</menu>

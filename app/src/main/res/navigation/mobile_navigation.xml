@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_admin_home">
+
+    <fragment
+        android:id="@+id/nav_admin_home"
+        android:name="mad.mini.digitaldairyapp.admin.ui.admin_home.admin_home"
+        android:label="@string/admin_home"
+        tools:layout="@layout/admin_home" />
+
+    <fragment
+        android:id="@+id/nav_entry"
+        android:name="mad.mini.digitaldairyapp.admin.ui.entry.ad_entry"
+        android:label="@string/daily_entry"
+        tools:layout="@layout/ad_entry" />
+    <fragment
+        android:id="@+id/nav_edit_entry"
+        android:name="mad.mini.digitaldairyapp.admin.ui.edit_entry.edit_entry"
+        android:label="@string/edit_entry"
+        tools:layout="@layout/edit_entry" />
+    <fragment
+        android:id="@+id/nav_admin_trace"
+        android:name="mad.mini.digitaldairyapp.admin.ui.admin_trace.admin_trace"
+        android:label="@string/trace_users"
+        tools:layout="@layout/admin_trace" />
+    <fragment
+        android:id="@+id/nav_admin_signup"
+        android:name="mad.mini.digitaldairyapp.admin.ui.ad_signup.admin_signup"
+        android:label="@string/add_admin"
+        tools:layout="@layout/admin_signup" />
+    <fragment
+        android:id="@+id/nav_user_signup"
+        android:name="mad.mini.digitaldairyapp.admin.ui.user_signup.user_signup"
+        android:label="@string/add_user"
+        tools:layout="@layout/user_signup" />
+
+</navigation>

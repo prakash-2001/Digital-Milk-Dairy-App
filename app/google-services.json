@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81624138077",
+    "project_id": "digital-dairy-app",
+    "storage_bucket": "digital-dairy-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81624138077:android:7b0bf9697175a4a03fa8b4",
+        "android_client_info": {
+          "package_name": "mad.mini.digitaldairyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81624138077-ldc369n124r8nvjskuk6rgk914vfrqac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcJvNnQSzhQncKi_XSAIuPDzySmo0Tl9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81624138077-ldc369n124r8nvjskuk6rgk914vfrqac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

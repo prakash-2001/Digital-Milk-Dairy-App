@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_user_home">
+
+    <fragment
+        android:id="@+id/nav_user_home"
+        android:name="mad.mini.digitaldairyapp.user.ui.user_home.user_home"
+        android:label="@string/user_home"
+        tools:layout="@layout/user_home" />
+    <fragment
+        android:id="@+id/nav_user_profile"
+        android:name="mad.mini.digitaldairyapp.user.ui.user_profile.user_profile"
+        android:label="@string/profile"
+        tools:layout="@layout/user_profile" />
+    <fragment
+        android:id="@+id/nav_trace_ur_details"
+        android:name="mad.mini.digitaldairyapp.user.ui.trace_ur_details.trace_ur_details"
+        android:label="@string/track_details"
+        tools:layout="@layout/trace_ur_details" />
+
+</navigation>
